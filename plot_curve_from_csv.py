@@ -1,3 +1,8 @@
+import re
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 def plot_curve_from_csv(csv_path, row=0, image_name=None, title=None):
     """
     Plot a single curve from a CSV.
